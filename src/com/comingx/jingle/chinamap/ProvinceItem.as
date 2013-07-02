@@ -70,6 +70,8 @@ package com.comingx.jingle.chinamap
 			var provinceClickEvent:ProvinceClickEvent = new ProvinceClickEvent(ProvinceClickEvent.PROVINCE_CLICK);
 			provinceClickEvent.mouseEvent = evt;
 			provinceClickEvent.province = this._province;
+			trace("click provice");
+			trace(this._province.id);
 		}
 		
 		public function rollOverHandler(evt:MouseEvent):void{

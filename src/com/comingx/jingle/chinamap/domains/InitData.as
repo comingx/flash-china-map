@@ -19,7 +19,7 @@ package com.comingx.jingle.chinamap.domains
 	public class InitData extends Object
 	{
 		private var _isShowProvinceName:Boolean = true;
-		private var _provinceDataArray:Array;
+		private var _provinceDataArray:Array = new Array();
 		private var _borderColor:uint = 0xffffff;
 		
 		public function InitData()
